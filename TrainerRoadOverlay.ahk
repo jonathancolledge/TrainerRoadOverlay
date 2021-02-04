@@ -39,7 +39,7 @@ return
 		WinActivate, TrainerRoad
 	}
 	else
-		WinActivate, Onelap
+		WinActivate, RGT Screen
 return
 
 /*
@@ -61,4 +61,10 @@ TrainerRoad
 ahk_class Chrome_WidgetWin_1
 ahk_exe TrainerRoad.exe
 ahk_pid 23776
+
+RGT Screen
+ahk_class UnityWndClass
+ahk_exe RGTScreen.exe
+ahk_pid 22272
+
 */
