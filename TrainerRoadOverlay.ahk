@@ -2,7 +2,8 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
+; Uncomment the next line and include the path to any other script you want to run.
+; #Include SomeFile.ahk
 ; WinSet, TransColor, Color , WinTitle, WinText, ExcludeTitle, ExcludeText
 
 ; The other colours to try are 0x252525 and 0x1D1D1D and 0x151515
